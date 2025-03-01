@@ -12,9 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
 </head>
 <style>
-    *{
+    /* *{
         font-family: poppins, sans-serif;
-    } 
+    }  */
     @keyframes marquee {
         0% {
             transform: translateX(-100%);
@@ -158,27 +158,33 @@
         </div>
     </div>
 </section>
-<nav class="bg-white sticky top-4 z-50 p-6  border  flex items-center justify-between max-w-[87rem] xl:mx-auto lg:mx-12 rounded-full mx-4">
+<nav class="bg-white sticky top-4 z-50 p-6 border  flex items-center justify-between max-w-[87rem] xl:mx-auto lg:mx-12 rounded-full mx-4">
     <div class="flex items-center gap-2">
         <img src="https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66c5934366ec1f0519f21bda_options.webp" alt="Logo" class="w-6 h-6 ">
         <span class="text-black text-sm font-semibold ">CATEGORIES</span>
     </div>
     <div class="hidden font-semibold text-black md:flex gap-10">
-        <a href="#" class=" hover:text-gray-300 ">Home</a>
-        <a href="#" class=" hover:text-gray-300">About</a>
-        <a href="#" class="hover:text-gray-300">Blog</a>
-        <a href="#" class=" hover:text-gray-300">Shop</a>
-        <a href="#" class=" hover:text-gray-300">Pages</a>
-        <a href="#" class=" hover:text-gray-300">Contact</a>
+     <a href="#" class=" hover:text-[#ee3623] inline block group relative">
+      <span class="absolute left-0 bottom-[-4px] w-0 h-0.5 bg-[#ee3623] group-hover:w-full transition-all duration-300"></span>Home</a>
+       <a href="#" class=" hover:text-[#ee3623] inline block group relative">
+       <span class="absolute left-0 bottom-[-4px] w-0 h-0.5 bg-[#ee3623] group-hover:w-full transition-all duration-300"></span>About</a>
+       <a href="#" class=" hover:text-[#ee3623] inline block group relative">
+       <span class="absolute left-0 bottom-[-4px] w-0 h-0.5 bg-[#ee3623] group-hover:w-full transition-all duration-300"></span>Blog</a>
+       <a href="#" class=" hover:text-[#ee3623] inline block group relative">
+       <span class="absolute left-0 bottom-[-4px] w-0 h-0.5 bg-[#ee3623] group-hover:w-full transition-all duration-300"></span>Shop</a>
+       <a href="#" class=" hover:text-[#ee3623] inline block group relative">
+       <span class="absolute left-0 bottom-[-4px] w-0 h-0.5 bg-[#ee3623] group-hover:w-full transition-all duration-300"></span>Pages</a>
+       <a href="#" class=" hover:text-[#ee3623] inline block group relative">
+       <span class="absolute left-0 bottom-[-4px] w-0 h-0.5 bg-[#ee3623] group-hover:w-full transition-all duration-300"></span>Contact</a>
     </div>
     <div class="flex gap-4">
-        <a href="#" class="text-black hover:text-gray-300">
+        <a href="#" class="text-black hover:text-[#ee3623]">
             <i class="fas fa-search"></i>
         </a>
-        <a href="#" class="text-black hover:text-gray-300">
+        <a href="#" class="text-black hover:text-[#ee3623]">
             <i class="fas fa-user"></i>
         </a>
-        <a href="#" class="text-black hover:text-gray-300">
+        <a href="#" class="text-black hover:text-[#ee3623]">
             <i class="fas fa-shopping-cart"></i>
         </a>
     </div>
@@ -222,8 +228,7 @@
                 </div>
               </div>
             </div>
-          </div>
-          
+          </div>       
     </div>
   </div>
 <div class="flex justify-center items-center">
@@ -290,7 +295,7 @@
         </div>
         <div class="w-96 h-[2px] bg-[#ee3623] mb-4 sm:mb-0 sm:block hidden  lg:ml-24 mx-10"></div>
     </div>
-    <div class="text-left mb-14 lg:max-w-[1350px] mx-auto px-4 flex flex-row gap-4 border-b border-gray-300 pb-6">
+    <div class="text-left mb-14 lg:max-w-[1350px] mx-10 lg:mx-auto px-4 flex flex-row gap-4 border-b border-gray-300 pb-6 lg:-mt-4">
         <a href="#" class="text-md font-semibold text-[#ee3623] inline-block group relative">
           LATEST
           <span class="absolute left-0 bottom-[-4px] w-0 h-0.5 bg-[#ee3623] group-hover:w-full transition-all duration-300"></span>
@@ -300,7 +305,7 @@
           <span class="absolute left-0 bottom-[-4px] w-0 h-0.5 bg-[#ee3623] group-hover:w-full transition-all duration-300"></span>
         </a>
     </div>
-    <div class="flex flex-wrap justify-center gap-6">
+    <div class="flex flex-wrap justify-center gap-6 -mt-4">
         <div class="w-[315px] bg-white rounded-lg shadow-lg relative group transform transition-all duration-300">
             <span class="absolute top-4 left-4 bg-red-600 text-white text-xs font-semibold px-2 py-1 rounded-lg z-10">On Sale</span>
             <img src="https://cdn.prod.website-files.com/66c5934366ec1f0519f21b89/66e1a49586446c030ff41443_pexels-pixabay-47856%20-%20Copy-p-800.avif" alt="Image 1" class="w-full h-96 p-4 bg-gray-200 object-contain transition-all duration-500">
@@ -674,10 +679,8 @@
             </div>
             <div class="absolute bottom-1 left-0 right-0 p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ">
                 <button class="w-32 bg-none border text-black border-[#ee3623] py-2 hover:text-white hover:bg-[#ee3623] rounded-full ">Add to Cart</button>
-            </div>
-            
-        </div>
-        
+            </div>      
+        </div>   
     </div>
     <div class="w-[315px]  bg-black rounded-lg shadow-lg relative group ml-5 md:block hidden transform transition-all duration-300 h-[600px]">
         <div class="flex border flex-col items-center justify-center px-4 pt-2 h-full text-white">
@@ -687,35 +690,44 @@
         </div>
     </div>
 </section>
-<section class="py-16 bg-gray-50">
+<section class="py-16">
     <div class="flex flex-col sm:flex-row items-center justify-center py-12 relative">
         <div class="w-96 h-[2px] bg-[#ee3623] mb-4 sm:mb-0 sm:block hidden mr-2 lg:mr-24 mx-10"></div>
         <div class="text-center">
-            <h1 class="text-sm sm:text-md font-semibold border py-2 px-4 text-white bg-[#ee3623] rounded-tl-full rounded-br-full w-32 mx-auto">SHOWCASE</h1>
+            <h1 class="text-sm sm:text-md font-semibold border py-2 px-4 text-white bg-[#ee3623] rounded-tl-full rounded-br-full w-32 mx-auto">Flash Sale</h1>
             <h2 class="text-3xl sm:text-5xl font-semibold text-black mt-4">FEATURED IN PRESS</h2>
         </div>
         <div class="w-96 h-[2px] bg-[#ee3623] mb-4 sm:mb-0 sm:block hidden lg:ml-24 mx-10"></div>
     </div>
     <div class="">
-        <div class="max-w-[90rem] lg:mx-auto mx-6">
-            <div class="flex flex-col  sm:flex-row w-full sm:mx-0">
+        <div class="max-w-[87rem] lg:mx-auto mx-6">
+            <div class="flex flex-col sm:flex-row w-full sm:mx-0">
                 <div class="flex-1">
-                    <div class="h-full rounded-tl-lg rounded-tr-lg sm:rounded-tr-none lg:rounded-bl-lg sm:rounded-bl-lg">
-                        <img src="https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66cb70b5796c0ab0a83c0c14_pexels-knownasovan-62689.avif" alt="img1" class="w-full h-[20rem] sm:h-[40rem] object-cover rounded-tl-lg rounded-tr-lg sm:rounded-tr-none lg:rounded-bl-lg sm:rounded-bl-lg">
+                    <div class="h-[30rem] sm:h-[45rem] relative">
+                        <div class="absolute inset-0 bg-black opacity-30 "></div>
+                        <!-- Set the image height to 30rem on mobile and 45rem on larger screens -->
+                        <img src="https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66cb70b5796c0ab0a83c0c14_pexels-knownasovan-62689.avif" alt="img1" class="w-full h-full object-cover ">
                     </div>
+                    <!-- <div class="h-[30rem] sm:h-[45rem] rounded-tl-lg rounded-tr-lg sm:rounded-tr-none lg:rounded-bl-lg sm:rounded-bl-lg relative">
+                        <div class="absolute inset-0 bg-black opacity-30 rounded-tl-lg rounded-tr-lg sm:rounded-tr-none lg:rounded-bl-lg sm:rounded-bl-lg"></div>
+                        <img src="https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66cb70b5796c0ab0a83c0c14_pexels-knownasovan-62689.avif" alt="img1" class="w-full h-full object-cover rounded-tl-lg rounded-tr-lg sm:rounded-tr-none lg:rounded-bl-lg sm:rounded-bl-lg">
+                    </div> -->
                 </div>
                 <div class="flex-1 sm:mt-0">
-                    <div class="h-full shadow-md rounded-br-lg rounded-bl-lg sm:rounded-tr-lg sm:rounded-bl-none sm:rounded-br-lg">
-                        <img src="https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66cb70b6ffd1354e499b8903_2149309641.avif" alt="img2" class="w-full h-[20rem] sm:h-[40rem] object-cover rounded-br-lg rounded-bl-lg sm:rounded-tr-lg sm:rounded-bl-none sm:rounded-br-lg">
+                    <div class="h-[30rem] sm:h-[45rem]  relative">
+                        <div class="absolute inset-0 bg-black opacity-30"></div>
+                        <!-- Set the image height to 30rem on mobile and 45rem on larger screens -->
+                        <img src="https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66cb70b6ffd1354e499b8903_2149309641.avif" alt="img2" class="w-full h-full object-cover ">
                     </div>
+                    <!-- <div class="h-[30rem] sm:h-[45rem] shadow-md rounded-br-lg rounded-bl-lg sm:rounded-tr-lg sm:rounded-bl-none sm:rounded-br-lg relative">
+                        <div class="absolute inset-0 bg-black opacity-30 rounded-br-lg rounded-bl-lg sm:rounded-tr-lg sm:rounded-bl-none sm:rounded-br-lg"></div>
+                        <img src="https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66cb70b6ffd1354e499b8903_2149309641.avif" alt="img2" class="w-full h-full object-cover rounded-br-lg rounded-bl-lg sm:rounded-tr-lg sm:rounded-bl-none sm:rounded-br-lg">
+                    </div> -->
                 </div>
             </div>
-        </div>
+        </div>  
     </div>
 </section>
-
-
-
 <section class="flex flex-col lg:flex-row w-full h-auto lg:h-[70vh] mt-24">
     <div class="hidden lg:block w-full lg:w-[55%] h-[50vh] lg:h-full">
       <video class="w-full h-full object-cover" autoplay loop muted>
@@ -742,7 +754,7 @@
           <h1 class="text-xl font-bold mb-6">Before & After</h1>
           <h2 class="text-3xl md:text-5xl md:max-w-[410px] font-bold text-black mb-6 md:mb-10">LAYER UP WITH PIECES DESIGNED</h2>
           <p class="text-base mb-6 md:mb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
-          <button class="mt-4 px-10 py-3 font-semibold bg-black text-white border-2 border-black hover:bg-white hover:text-black rounded-full">Buy Now</button>
+          <button class="mt-4 px-10 py-3 font-semibold bg-black text-white border-2 border-black hover:bg-white hover:text-black rounded-full">BUY NOW</button>
         </div>
         <div class="w-full md:w-1/2 h-[30rem] md:h-[40rem] p-6 md:ml-8">
           <img src="https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66cb23ca91ed2056bc2a3593_2147860976.avif" alt="Description" class="w-full h-full object-cover"/>
@@ -750,7 +762,6 @@
       </div>
     </div>
   </section>
-  
   <section class="h-auto lg:h-[70vh] flex flex-col justify-center bg-[#f7f7f7] items-center py-12 lg:py-0">
     <div class="max-w-[89rem] mx-auto w-full px-6 sm:px-6 lg:px-8">
       <h1 class="text-4xl border-b border-[#ee3623] w-full pb-6 font-semibold text-left">REVIEW FROM <span class="text-[#ee3623]">CLIENTS</span></h1>
@@ -793,5 +804,106 @@
       </div>
     </div>
   </section>
+  <section class="featured-press-section py-10">
+    <div class="flex flex-col sm:flex-row items-center justify-center py-12 relative">>
+        <div class="w-96 h-[2px] bg-[#ee3623] mb-4 sm:mb-0 hidden sm:block mr-2 lg:mr-24 mx-10"></div>
+        <div class="text-center">
+            <h1 class="text-sm sm:text-md font-semibold border py-2 px-4 text-white bg-[#ee3623] rounded-tl-full rounded-br-full w-32 mx-auto">Flash Sale</h1>
+            <h2 class="text-3xl sm:text-5xl font-semibold text-black mt-4">FEATURED IN PRESS</h2>
+        </div>
+        <div class="w-96 h-[2px] bg-[#ee3623] mb-4 sm:mb-0 hidden sm:block lg:ml-24 mx-10"></div>
+    </div>
+    <div class="flex flex-wrap justify-center md:justify-between mt-6 mx-10 max-w-[87rem] mx-auto  gap-6 border-b border-gray-300 pb-16">
+        <img src="https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66cde6d14e6785e08ed10dae_customers_7.svg" alt="Featured Image 1" class="w-32 h-[5rem] object-contain">
+        <img src="https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66cde6d04e6785e08ed10d9a_customers_6.svg" alt="Featured Image 2" class="w-32 h-[5rem] object-contain">
+        <img src="https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66cde6d04e6785e08ed10d80_customers_2.svg" alt="Featured Image 3" class="w-32 h-[5rem] object-contain">
+        <img src="https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66cde6d04e6785e08ed10d6e_customers_5.svg" alt="Featured Image 4" class="w-32 h-[4rem] mt-2 object-contain">
+        <img src="https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66cde6d14e6785e08ed10e14_bronx.svg" alt="Featured Image 5" class="w-32 h-[5rem] object-contain">
+    </div>
+</section>
+<section class="relative bg-cover bg-center py-10">
+    <div class="absolute inset-0 bg-[url('https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66e1ab88e51ee622214f6c09_pexels-afre-3526906.jpg')] bg-cover bg-center"></div>
+    <div class="absolute inset-0 bg-black opacity-90"></div>
+    <div class="relative max-w-[92rem] mx-auto px-4 py-8 text-white">
+        <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-20 justify-between">
+            <p class="w-full lg:w-[60%] text-2xl font-semibold lg:text-3xl text-left">Join our mailing list & get exclusive offers and updates</p>
+            <div class="flex flex-col lg:flex-row gap-4 lg:gap-2 w-full lg:w-full">
+                <div class="relative w-full lg:flex-1">
+                    <!-- SVG Envelope Icon -->
+                    <svg class="absolute left-4 top-[50%] transform -translate-y-[9px] w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                        <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                    </svg>
+                    <input type="text" class="pl-10 p-2 py-3 border border-gray-300 hover:border-[#ee3623] rounded-full w-full bg-transparent text-white placeholder-gray-300 focus:outline-none focus:border-white" placeholder="Enter your email" />
+                </div>
+                <button class="p-2 bg-[#ee3623] py-3 text-white rounded-full  w-full lg:w-auto lg:flex-1">Submit Now</button>
+            </div>
+        </div>
+    </div>
+    <div class="relative max-w-[90rem] mx-auto border-b border-t border-white py-10 mt-8 text-white">
+        <div class="flex flex-col lg:flex-row justify-between items-center w-full px-4 lg:px-0">
+            <div class="flex flex-col items-center lg:items-start gap-4 lg:gap-2 w-full lg:w-[60%] mb-8 lg:mb-0">
+                <img src="https://cdn.prod.website-files.com/66c5934366ec1f0519f21b52/66d3311f66a509e1a15b2018_GadgetZ%20(2).avif" alt="Image" class="w-24 h-24 object-contain bg-black">
+                <p class="text-lg lg:text-xl text-center  lg:text-left">At GadgetZ, we're dedicated to providing you with the best in electronic innovation. Explore our wide range of products, from headphones to smart home devices.</p>
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-phone w-5 h-5 text-gray-600"></i>
+                    <span class="text-lg lg:text-xl">+123 456 789</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <i class="fas fa-envelope w-5 h-5 text-gray-600"></i>
+                    <span class="text-lg lg:text-xl">contact@gadgetz.com</span>
+                </div>
+            </div>
+            <div class="flex flex-col lg:flex-row justify-evenly items-center w-full gap-8 lg:gap-24 p-2">
+                <div class="flex flex-col items-center lg:items-start">
+                    <p class="text-xl lg:text-2xl font-semibold mb-4 lg:mb-6">Usefull Links</p>
+                    <p class="text-base lg:text-lg mb-2">HOME</p>
+                    <p class="text-base lg:text-lg mb-2">About</p>
+                    <p class="text-base lg:text-lg mb-2">Blog</p>
+                    <p class="text-base lg:text-lg mb-2">Shop</p>
+                    <p class="text-base lg:text-lg">Contact</p>
+                </div>
+                <div class="flex flex-col items-center lg:items-start">
+                    <p class="text-xl lg:text-2xl font-semibold mb-4 lg:mb-6">Quick Links</p>
+                    <p class="text-base lg:text-lg mb-2">Abous Us</p>
+                    <p class="text-base lg:text-lg mb-2">FAQ</p>
+                    <p class="text-base lg:text-lg mb-2">Shop</p>
+                    <p class="text-base lg:text-lg mb-2">Login</p>
+                    <p class="text-base lg:text-lg">Licensing</p>
+                </div>
+                <div class="flex flex-col items-center lg:items-start">
+                    <p class="text-xl lg:text-2xl font-semibold mb-4 lg:mb-6">Extra Links</p>
+                    <p class="text-base lg:text-lg mb-2">Home-2</p>
+                    <p class="text-base lg:text-lg mb-2">Home-3</p>
+                    <p class="text-base lg:text-lg mb-2">About-2</p>
+                    <p class="text-base lg:text-lg mb-2">About-3</p>
+                    <p class="text-base lg:text-lg">Blog-2</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="bg-black text-white py-6">
+    <div class="max-w-[90rem] mx-auto flex flex-col lg:flex-row justify-between items-center px-4 lg:px-0">
+      <p class="text-sm text-center lg:text-left mb-4 lg:mb-0">© 2025 GadgetZ. All rights reserved. | Your one-stop shop for innovative electronics.</p>
+      <div class="flex gap-4">
+        <a href="https://facebook.com" class="text-xl hover:text-blue-500">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://instagram.com" class="text-xl hover:text-pink-500">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://twitter.com" class="text-xl hover:text-blue-400">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://pinterest.com" class="text-xl hover:text-red-600">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  
+  
+  
 </body>
 </html>
